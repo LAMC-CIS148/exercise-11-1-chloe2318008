@@ -86,6 +86,7 @@ main {
 	clear: left;
 }
 
+
 /* the styles for the section */
 section {
 	width: 525px;
@@ -112,6 +113,7 @@ section li {
 	padding-bottom: .35em;
 }
 
+
 /* the styles for the article */
 article {
 	padding: .5em 0;
@@ -121,11 +123,20 @@ article h2 {
 	padding: 0 0 .25em 0;
 }
 article img {
-	float: right;
-	margin: .5em 0 1em 1em;
+
+
 	border: 1px solid black;
 }
-
+article figure {
+	float: right;
+	margin: .5em 0 1em 1em;
+}
+article figcaption {
+	display: block;
+	font-weight: bold;
+	padding-top: .5em;
+	border-bottom: 1px solid black;
+}
 /* the styles for the aside */
 aside {
 	width: 215px;
@@ -138,6 +149,7 @@ aside h2 {
 	padding: .5em 0 .25em 0;
 }
 
+
 aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
@@ -146,10 +158,12 @@ aside img {
 	padding-bottom: 1em;
 }
 
+
 /* the styles for the footer */
 footer {
 	background-color: #931420;
 	clear: both;
+
 
 }
 footer p {
